@@ -1,2 +1,16 @@
-.venv
+# Ignore Python compiled files and directories
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+ENV/
+
+# Build and distribution files
+build/
+dist/
+*.egg-info
+
+# Other Python-specific files
+setup.py
