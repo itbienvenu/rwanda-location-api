@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="rwanda-locations-api",
-    version="1.1.1",
+    version="0.1.1",
     description="API package containing all regions of Rwanda from provinces to villages.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",

@@ -28,7 +28,7 @@ pip install rwanda-locations-api
 ## Usage
 
 ```
-from rwanda_locations_api.locs import get_provinces, get_districts, get_sectors, get_cells, get_villages
+from rwanda_locations_api.locs.data import get_provinces, get_districts, get_sectors, get_cells, get_villages
 
 # Get all provinces
 provinces = get_provinces()
