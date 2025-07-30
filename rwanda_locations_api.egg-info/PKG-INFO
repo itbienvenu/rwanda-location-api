@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: rwanda-locations-api
+Version: 1.0.0
+Summary: A FastAPI package with all Rwanda's location data from provinces to villages
+Author: MWIMULE Bienvenu
+Author-email: mwimulebienvenu05@gmail.com
+Requires-Python: >=3.7
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
