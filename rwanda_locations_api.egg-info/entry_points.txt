@@ -1,2 +1,0 @@
-[console_scripts]
-rwanda-api = rwanda_locations.api:app
