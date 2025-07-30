@@ -5,7 +5,7 @@ import os
 
 def get_location_data():
     base_dir = os.path.dirname(__file__)
-    data_path = os.path.join(base_dir, 'data', 'locations.json')
+    data_path = os.path.join(base_dir, 'locs', 'locations.json')
     with open(data_path, 'r') as file:
         return json.load(file)
 

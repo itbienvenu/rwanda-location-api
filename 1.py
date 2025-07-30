@@ -1,4 +1,6 @@
-from locs.data import (
+# Sample usage
+
+from rwanda_locations_api.locs.locs import (
     get_provinces,
     get_districts_from_province,
     get_sectors_from_district,

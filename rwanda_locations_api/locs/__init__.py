@@ -1,13 +1,19 @@
-# rwanda_locations/__init__.py
+# rwanda_locations_api/__init__.py
 
-from .data import (
+from .locs import (
     get_location_data,
     get_provinces,
+    get_districts,
+    get_sectors,
+    get_cells,
+    get_villages,
     get_districts_from_province,
     get_sectors_from_district,
     get_cells_from_sector,
-    get_villages_from_cell
+    get_villages_from_cell,
+    get_all_children
 )
+
 from .lookup import (
     retrieve_districts,
     retrieve_sectors,

@@ -1,1 +1,1 @@
-from rwanda_locations_api import api
+from rwanda_locations_api.locs

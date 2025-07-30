@@ -1,6 +1,6 @@
 # rwanda_locations/lookup.py
 
-from .data import (
+from .locs import (
     get_districts_from_province,
     get_sectors_from_district,
     get_cells_from_sector,
