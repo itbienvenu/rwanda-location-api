@@ -15,16 +15,16 @@ def list_provinces():
 
 @app.get("/districts/{province}")
 def list_districts(province: str):
-    return list(locations.get(province, {}).keys())
+    return list(locations.get(province.capitalize(), {}).keys())
 
 @app.get("/sectors/{province}/{district}")
 def list_sectors(province: str, district: str):
-    return list(locations.get(province, {}).get(district, {}).keys())
+    return list(locations.get(province.capitalize(), {}).get(district.capitalize(), {}).keys())
 
 @app.get("/cells/{province}/{district}/{sector}")
 def list_cells(province: str, district: str, sector: str):
-    return list(locations.get(province, {}).get(district, {}).get(sector, {}).keys())
+    return list(locations.get(province.capitalize(), {}).get(district.capitalize(), {}).get(sector.capitalize(), {}).keys())
 
 @app.get("/villages/{province}/{district}/{sector}/{cell}")
 def list_villages(province: str, district: str, sector: str, cell: str):
-    return locations.get(province, {}).get(district, {}).get(sector, {}).get(cell, [])
+    return locations.get(province.capitalize(), {}).get(district.capitalize(), {}).get(sector.capitalize(), {}).get(cell.capitalize, [])
